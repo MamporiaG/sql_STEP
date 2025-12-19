@@ -2,4 +2,5 @@
 -- Involve at least one condition, using WHERE with AND or OR
 -- My query: list titles which start with letter 'a' or 'b'
 
-SELECT title FROM episodes WHERE title LIKE 'a%' OR 'b%';
+
+SELECT title FROM episodes WHERE title LIKE 'a%' OR title LIKE 'b%';
